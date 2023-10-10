@@ -1,0 +1,162 @@
+/*---ETIQUETAS GENERALES---*/
+html,body{
+    height: 100%;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+p{
+    padding: 0% 1%; /*La letra de los parrafos tienen un espacio a la derecha e izquierda*/
+}
+
+section{
+    margin-bottom: 5%; /*Aumentar la separacion entre secciones*/
+}
+
+/*--HEADER--*/
+header{
+    background-color: dimgray;
+    height: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+#loyola{    /*Imagen del logotipo de la fundacion loyola*/
+    float: left;
+    width: 10%;
+}
+
+#titulo{
+    font-size: xx-large;    /*Cambio de tamaño de la letra del titulo*/
+}
+
+#Hdatos{
+    /*Poner una imagen en el fondo y con cover hacemos que esa imagen ocupe el contenedor entero*/
+    background-image: url("https://img.freepik.com/fotos-premium/color-azul-fondo-borroso_39406-183.jpg");
+    background-size: cover;
+}
+
+/*----NAVER---*/
+#menu{
+    height: 5.5%;
+    list-style: none;
+    background-color: lightslategray;
+    position: sticky;
+    top: 0%;
+    margin-top: 0%;
+}
+
+#menu>li{
+    width: 12%;
+    height: 75%;
+    margin: 0% 1.5%;
+    padding-top: 1%;
+    text-align: center;
+    float: left;
+}
+
+#menu>li>a{
+    text-decoration: none;  /*Quitar la linea de abajo del enlace*/
+    color: seashell;
+}
+
+#menu>li>a:hover{
+    color: black;
+}
+
+/*---MAIN---*/
+main{
+    width: 80%;
+    margin: 0% 10%;
+}
+
+/*SECTION INTRODUCCION*/
+#in figure{
+    border: 1px solid black;
+}
+
+#in img{
+    width: 100%;
+}
+
+#in figcaption{
+    text-align: center;
+}
+
+
+/*---TABLA COMPRAS---*/
+#dc> table{
+    margin: auto;
+    border-collapse: collapse; /* Juntar los bordes de las tablas*/
+    text-align: center; /*Centro todo el texto escrito en la tabla*/
+}
+
+#casillasTabla th,
+#casillasTabla td{
+    border: 2px solid black; /* tamaño, estilo y color del borde de cada celda de la tabla*/
+    width: 1%;
+}
+
+/*---LISTA RESPONSABILIDAD---*/
+#cm li{
+    list-style-type: upper-roman; /*Cambia los numeros de la lista por letras romanas*/
+}
+
+/*---FOOTER---*/
+footer{
+    background-color: lightslategray;
+    width: 100%;
+    text-align: center;
+}
+
+#pagina{
+    padding: 1% 0%;
+}
+
+#pagina>a{
+    text-decoration: none;    /*Quitar la linea de abajo del enlace*/
+}
+
+#pagina>a:hover{
+    background-color: dimgray;
+    color: black;
+}
+
+
+/*---Extra (span)---*/
+/*Estas clases seran usadas para la etiqueta span*/
+/*Clase para cambiar la letra a negrita*/
+.negrita{
+    font-weight: bold;
+    font-size: large;
+}
+
+/*Clase para cambiar la letra al color rojo con cambio de fuente*/
+.letraRoja{
+    color: red;
+    font-family: Arial;
+}
+
+/*Clase para poner la letra en cursiva*/
+.cursiva{
+    font-style: italic;
+}
+
+/*Clase para subrayar letra*/
+.underline{
+    text-decoration: underline;
+}
+
+/*---FORMULARIO---*/
+#fo div{
+    margin: auto;
+    width: 50%;
+}
+
+input[type=text]{
+    background-color: lightblue;
+}
+
+input[type=submit]{
+    border-radius: 30%;  /*El borde del boton enviar esta redondeado*/
+}
